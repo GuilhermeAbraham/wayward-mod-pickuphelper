@@ -1,15 +1,11 @@
 {
-    "compilerOptions": {
-        "target": "es6",
-        "module": "amd",
-        "declaration": true,
-        "noImplicitAny": true,
-        "noUnusedLocals": true,
-        "removeComments": true,
-        "preserveConstEnums": true,
-        "inlineSourceMap": true,
-        "baseUrl": "./mod-reference/definitions",
-        "types": [],
-        "experimentalDecorators": true
-    }
+	"extends": "@wayward/types/tsconfig.mod.base.json",
+	"compilerOptions": {
+		"baseUrl": "./",
+		"outDir": "./out",
+		"rootDir": "./src"
+	},
+	"include": [
+		"src/**/*"
+	]
 }

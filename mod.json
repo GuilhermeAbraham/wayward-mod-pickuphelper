@@ -3,14 +3,13 @@
 	"description": "Lets you pick items from the pile in front of you in a more organized way.",
 	"version": "1.0.7",
 	"author": "black silence",
+	"file": "out/PickUpHelper",
+	"waywardVersion": "2.15.1-beta",
+	"multiplayerCompatible": "compatible",
+	"publishedFileId": "777480456",
 	"unloadable": true,
-	"multiplayerCompatible": true,
-	"file": "pickuphelper.js",
-	"compatibleMinorVersions": [
-		7
-	],
+	"allowUnlockingMilestones": true,
 	"languages": [
 		"lang/english"
-	],
-	"publishedFileId": "777480456"
+	]
 }
